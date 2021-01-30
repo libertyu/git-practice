@@ -1,9 +1,10 @@
-class Human {
-  constructor(name, age, gender) {
+export class Human {
+  constructor(name, age) {
     this.name = name;
     this.age = age;
-    this.gender = gender;
+  }
+
+  introduce() {
+    console.log(`My name is ${this.name}`);
   }
 }
-
-const human = new Human();
