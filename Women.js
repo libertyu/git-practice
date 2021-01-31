@@ -1,4 +1,4 @@
-import { Human } from "./Human";
+import { Human } from "./Human.js";
 
 class Woman extends Human {
   constructor(name, age) {
@@ -7,4 +7,4 @@ class Woman extends Human {
   }
 }
 
-const woman = new Woman("Taro", 20);
+const woman = new Woman("Hanako", 20);
