@@ -4,7 +4,7 @@ export class Human {
     this.age = age;
   }
 
-  introduce() {
+  static introduce() {
     console.log(`My name is ${this.name}`);
   }
 }
